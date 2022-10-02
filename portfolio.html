@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0%;
+        }
+    #ed{
+        font-size:15px;
+    }
+    a{
+        text-decoration: none;
+        color: antiquewhite;
+    }
+    .container{
+            display : grid;
+            grid-template-columns: 121px 0% 60% 32%;
+            grid-column: 100%;
+            height: 90vh;
+            padding-bottom: 15vh;
+        }
+    section{
+        text-align: left;
+        background-image: url(https://th.bing.com/th/id/R.18a6dc3c4f741764436495255b2e10f5?rik=Ha%2f4wt35Ws%2bh1w&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2f9%2fc%2fa%2f9%2f133181080294472335portfolio-hi.png&ehk=HAGN7vPZDN1qimLCMtei4IE%2f5XDEu5zFPz%2f4rMo5UTA%3d&risl=&pid=ImgRaw&r=0);
+   color:black;
+   background-repeat: no-repeat;
+   background-size: contain;
+        padding-top: 20vh;
+        padding-left: 10vw;
+        font-weight: 200;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: white;
+    }
+    nav{
+        height: 50vw;
+        background-color: rgb(32, 52, 34);
+        position: fixed;
+    }
+
+    ul{
+        padding: 0%;
+        height: 75vh;
+        color:azure;
+        background-color: rgb(32, 52, 34);
+    }
+    .name{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: bold;
+        font-size: 10vh;
+        padding: 0%;
+    }
+    div{
+        padding-top: 2vh;
+        font-size: x-large;
+    }
+    .qual{
+
+    }
+    button{
+        margin-top: 5vh;
+        margin-left: 1vw;
+        font-size: x-large;
+        border-radius: 2vh;
+        background-color: rgb(13, 13, 53);
+        color: antiquewhite;
+    }
+    footer{
+        background-color: rgba(254, 253, 255, 0.767);
+    }
+    th{
+        padding-left: 10vw;
+    }
+    .head{
+        text-align: center;
+        font-family:cursive;
+        font-size: 10vh;
+        padding-bottom: 5vh;
+        text-decoration: underline;
+    }
+    .ineer{
+        color:black;
+        padding-left: 20vw;
+        height: 35vh;
+        background-color: rgb(246, 224, 228);
+        padding-top: 55vh;
+        padding-left: 15vw;
+       
+        
+    }
+    .iner{
+        color:white;
+        padding-left: 10vw;
+        height: 35vh;
+        background-color: rgb(246, 224, 228);
+        padding-top: 2vh;
+        padding-left: 40vw;
+       
+       
+        
+    }
+    #ull{
+        padding-left:8vw ;
+        color: black;
+        height: 10vh;
+        
+    }
+ #qual{
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+        background-color:white;
+        
+        background-image: url(https://st3.depositphotos.com/1005979/18332/i/1600/depositphotos_183328000-stock-photo-strength-weakness-scale-weighing-pattern.jpg);
+   color:white;
+   background-repeat: no-repeat;
+   background-size:contain;
+   background-position:center;
+   display:grid;
+   grid-template-columns: 50% 50%;
+   height: 90vh;
+    }
+ section ul   li,#intro{
+
+        list-style:disc;
+        padding-top: 1vw;
+        font-size: 5vh;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+li{
+        list-style: none;
+        padding-top: 10vh;
+        padding-left: 5px;
+
+    }
+.sec{
+    padding-top: 18vh;
+    padding-bottom: 25vh;
+   background-image: url(https://www.codemahal.com/wp-content/uploads/2015/02/Artboard-1@2xdx-1024x576.png);
+   color:white;
+   background-repeat:no no-repeat;
+   background-size:cover;
+}
+.sect{
+    padding-top: 6vh;
+    background-color: rgb(33, 33, 49);
+    padding-bottom: 10vh;
+    background-image: url(https://images.techhive.com/images/article/2016/11/computerworld_tech_forecast_2017_hottest-tech-skills-for-2017-100692085-large.3x2.jpg);
+   color:white;
+   background-repeat:no-repeat;
+   background-size:contain;
+   background-position: center;
+   
+}
+h1{
+    font-size: 7vh;
+}
+.form{
+    display: grid;
+    grid-template-columns: 35vw 30vw;
+    padding-left: 10vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+#button{
+    margin-left: 10vw;
+    height: 5vh;
+}
+.pro{
+    padding-top: 8vh;
+    padding-bottom: 20vh;
+    background-color: #6c71704a;
+}
+.secti{
+    padding-top: 5vh;
+    background-color: rgb(51, 2, 2);
+    background-image: url(https://cdn0.iconfinder.com/data/icons/human-resources-29/66/8-512.png);
+   color:black;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+nav.sticky{
+    position: fixed;
+    top:0;
+}
+   
+    </style>
+
+</head>
+<body>
+    <div class ="container">
+    <header>
+  
+    <nav id="navbar">
+        <ul id="menu">
+        <li class="inli"><a href="#home">Home</a></li>
+       <li id="ed" class="inli"> <a href="#education">Strength/Weakness</a></li>
+       <li class="inli"><a href="#skill">Tech Skills</a></li>
+       <li class="inli"><a href="#project">Projects</a></li>
+       <li class="inli"><a href="#contact">Contact me</a></li>
+       
+    </ul>
+   
+    </nav>
+</header>
+<a name="home"></a>
+<section>
+    
+    <div class="hell" >Hello I am </div>
+    <div class="name">Abhay Pratap</div>
+    <div>Student of AKGEC Ghaziabad</div>
+    <div>Full stack Developer</div>
+    <button><a href="#cv">Get CV</a></button>
+    <br>
+    
+
+  
+</section>
+<footer style="padding-top: 10vh; ">
+    <!--<img src="https://www.pngall.com/wp-content/uploads/2016/07/Web-Development-Download-PNG.png" width="300vw">
+    <img src="https://freepngimg.com/thumb/web_development/1-2-web-development-picture-thumb.png" width="400vw">-->
+    <img src="abhay.png.jpeg" width="400vw">
+    
+    
+</footer>
+</div>
+<a name="education"></a>
+<section id="qual">
+    
+    <!--<h1 class="head" style="color: black;">Strenght</h1>-->
+    <div>
+    <ul class="ineer" style="background-color:rgb(0,0,0,0) ;">
+        <li >Hard Worker</li>
+        <li>Self Motivates</li>
+        <li>Quick learner</li>
+        <li>Desiplined</li>
+    </ul>
+</div>
+<div>   <!--<h1 class="head" style="color: black;">Weakness</h1>-->
+    <ul id="ull" class="ineer" style="background-color:rgb(0,0,0,0) ;">
+    <li id="intro" style="color:black ;">Introvert</li>
+</ul>
+</div>
+</section>
+<a name="skill"></a>
+<section class="sect">
+    <h1 class="head" style="padding-bottom: 5vh;">Tech Skills</h1>
+    <h1 style="color:black; padding-left:20vw;">Web Developer </h1>
+    <ul class="iner" style="background-color:rgb(0,0,0,0);">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Django</li>
+</ul>
+    <h1 style="color:black; padding-left:20vw;">Coding on Hacherrank</h1>
+    <ul class="iner"style="background-color:rgb(0,0,0,0);">
+    <li>C language</li>
+    <li>Python</li>
+</ul>
+</section>
+<a name="project"></a>
+<section class="sec">
+    <h1 class="head">Project</h1>
+    <div>
+        <ul class="iner" style="background-color:rgba(8, 3, 3, 0.3) ;color:aliceblue;font-weight: bold;">
+       <li> Front end of payment form.</li>
+       <li> Front end of GYM site</li>
+        <li>Front end and Back end of Online Canteen</li>
+    </ul>
+    </div>
+</section>
+<a name="contact"></a>
+<section class="pro">
+    <h1 class="head">Contact Me</h1>
+    <form>
+        <div class="form">
+        <p><span>Enter your organisation name:</p><p><input type="text"></span></p>
+        <p><span>Enter your mobile number:</p><p><input type="tel"></span></p>
+        Or
+        <p></p>
+        <span>Enter Email:</span><span><input type="email"></span>
+    
+        <span>Your purpose:</span>
+    
+       <p> <input type="checkbox"> General Enquiry</p>
+        <p></p><p><input type="checkbox"> Offer any project</p>
+        <p></p><p><input type="checkbox"> Other</p>
+    
+        <p>Have any message:</p>
+        <textarea rows="5" cols="30" placeholder="message"></textarea>
+  
+       <button type="submit" id="button">Submit</button>
+    </div>
+    </form>
+</section>
+<a name="cv"></a>
+<section class="secti" style="color: black;">
+    <h1 class="head" style="padding-bottom: 1vh; padding-left: 0vw; color: white;">Curriculum Vitae</h1>
+    <div class="form"> 
+<p>Name:</p> 
+ <p>Abhay Pratap</p>
+ <p>Father's name:</p>
+ <p>Shiv Kumar</p>
+ <p>Address:</p>
+ <p>Dadri, G.B Nagar U.P</p>
+ <p>Date of Birth:</p>
+ <p>16 September 2004</p>
+ <p>Sex:</p>
+ <p>Male</p>
+ <p>Martial Status:</p>
+ <p>Single</p>
+ <p>Nationality:</p>
+ <p>Indian</p>
+ <p>Religion:</p>
+ <p>Hindu</p>
+ <p>Language:</p>
+ <p>Hindi/English</p>
+ <p>Hobbies:</p>
+ <p>Playing Chess,Reading book</p>
+</div>
+ <div>
+    <h1 style="padding-left: 5vw;">Academic Qualification</h1>
+    <table>
+        <tr><th>
+            Course
+        </th>
+        <th>
+            Board
+        </th>
+        <th>
+            Percentage/SGPE
+        </th>
+        </tr>
+        <tr>
+            <th>10<sup>th</sup></th>
+            <th>CBSE</th>
+            <th>87</th>
+        </tr>
+        <tr>
+            <th>12<sup>th</sup></th>
+            <th>CBSE</th>
+            <th>95</th>
+        </tr>
+        <tr>
+            <th>Semester1</th>
+            <th>AKTU</th>
+            <th>9.1</th>
+        </tr>
+    </table>
+    <hr>
+ </div>
+
+</section>
+<script>
+    var navbar = document.getElementById("navbar");
+    var menu = document.getElementById("menu");
+    window.onscroll = function(){
+        if(window.pageYOffset >= menu.OffsetLeft){
+            navbar.classlist.add("sticky");
+        }
+        else{
+            navbar.classlist.remove("sticky");
+        }
+    }
+</script>
+
+
+
+</body>
+</html>
