@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0%;
+            
+        }
+#ed{
+    padding-right: 2vw;
+}
+    a{
+        text-decoration: none;
+        color: antiquewhite;
+    }
+ 
+
+  
+    button{
+        margin-top: 5vh;
+        margin-left: 1vw;
+        font-size: x-large;
+        border-radius: 2vh;
+        background-color: rgb(13, 13, 53);
+        color: antiquewhite;
+    }
+    button:hover{
+        background-color: red;
+        height: 10vh;
+    }
+    a:hover{
+       
+        height: 50vh;
+        font-size: 5vh;
+    }
+
+    th{
+        padding-left: 10vw;
+    }
+    .head{
+        text-align: center;
+        font-family:cursive;
+        font-size: 10vh;
+        padding-bottom: 5vh;
+        text-decoration: underline;
+    }
+    .ineer{
+        color:black;
+        padding-left: 20vw;
+        height: 35vh;
+        background-color: rgb(246, 224, 228);
+        padding-top: 55vh;
+        padding-left: 15vw;
+       
+        
+    }
+    .iner{
+        color:white;
+        padding-left: 10vw;
+        height: 35vh;
+        background-color: rgb(246, 224, 228);
+        padding-top: 2vh;
+        padding-left: 40vw;
+       
+       
+        
+    }
+    #ull{
+        padding-left:8vw ;
+        color: black;
+        height: 10vh;
+        
+    }
+ #qual{
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+        background-color:white;
+        
+       background-image: url(https://st3.depositphotos.com/1005979/18332/i/1600/depositphotos_183328000-stock-photo-strength-weakness-scale-weighing-pattern.jpg);
+   color:white;
+   background-repeat: no-repeat;
+   background-size:contain;
+   background-position:center;
+   display:grid;
+   grid-template-columns: 50% 50%;
+   height: 90vh;
+    }
+ section ul   li,#intro{
+
+        list-style:disc;
+        padding-top: 1vw;
+        font-size: 5vh;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+li{
+        list-style: none;
+        padding-top: 10vh;
+        padding-left: 5px;
+
+    }
+.sec{
+    padding-top: 18vh;
+    padding-bottom: 35vh;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlNmLnPM59exxOqJXgdEssIxM3VjWngWDEG6vTib1h&s);
+   color:white;
+   background-repeat:no no-repeat;
+   background-size:cover;
+}
+
+h1{
+    font-size: 7vh;
+}
+.form{
+    display: grid;
+    grid-template-columns: 35vw 30vw;
+    padding-left: 10vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+#button{
+    margin-left: 10vw;
+    height: 5vh;
+}
+.pro{
+    
+    padding-top: 20vh;
+    padding-bottom: 40vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/984/861/original/abstract-blue-geometric-circles-overlapping-background-with-light-blue-free-vector.jpg);
+    background-repeat: no-repeat;
+}
+.secti{
+    padding-top: 5vh;
+    background-color: rgb(51, 2, 2);
+    background-image: url(https://cdn0.iconfinder.com/data/icons/human-resources-29/66/8-512.png);
+   color:black;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.container{
+    padding: 0%;
+    width:100%;
+    height: 100vh;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 0.4fr 6fr;
+background-color: pink;
+
+}
+.upper{
+    padding: 0%;
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    background-color: blue;
+    margin: 0%;
+ 
+}
+.topleft{
+    padding: 0%;
+    display: grid;
+    grid-template-rows: 2% 20vh;
+    background-color: black;
+    animation-name: dis;
+animation-duration: 20s;
+animation-iteration-count: 1;
+transition:1;
+height: 20vh;
+padding-bottom: 0%;
+
+}
+.lower{
+    padding: 0%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    background-color: aliceblue;
+}
+#menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+
+}
+#menudown{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:100%;
+    animation-name: diss;
+animation-duration: 20s;
+animation-iteration-count: 1;
+transition-timing-function: 1;
+background-color: black;
+height: 100%;
+}
+.middle{
+background-image: url(https://img.freepik.com/free-vector/smooth-white-wave-background_52683-55288.jpg?w=2000);
+display: grid;
+grid-template-rows: 1fr 2fr;
+grid-template-columns: 1fr;
+
+}
+.topright{
+    text-align: left;
+    
+}
+#img{
+    border-radius: 100%;
+}
+.sticcky{
+    position: fixed;
+    top: 0%;
+    background-color: black;
+    padding-top: 0%;
+    width: 100%;
+    height: 10vh;
+    
+}
+.inli{
+    padding: 5%;
+}
+.inlo{
+ padding-top: 10vh;
+}
+.front{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0% 1fr;
+}
+
+.skills{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 100%;
+   background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210814/pngtree-blue-purple-simple-gradient-background-image_760572.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.leftsl{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    height: 100vh;
+}
+.rightsl{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+
+}
+
+.html{
+    background-image: url(https://cdn3.f-cdn.com//files/download/84961287/HTM1.png?fit=crop);
+    background-size: 30vh;
+}
+@keyframes html{
+    from{
+        height: 100%;
+    }
+    to{
+        height: 20%;
+    }
+}
+ @keyframes css{
+    from{
+        height: 100%;
+    }
+    to{
+        height: 50%;
+    }
+
+}
+@keyframes js{
+    from{
+        height: 100%;
+    }
+    to{
+        height: 70%;
+    }
+
+}
+.css{
+    background-image: url(https://camo.githubusercontent.com/119b29ca4b9d31cf3969a94eb57fcfbbea0879b493c09c89dc6d4b7fb9e0dc37/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6373732d332e737667);
+    background-size: 35vh;
+}
+.javascript{
+    background-image: url(https://cms.rootstack.com/sites/default/files/inline-images/javascript%20logo_0.png);
+    background-size: 45vh;
+  }  
+.django{
+    background-image: url(https://files.realpython.com/media/django-pony.c61d43c33ab3.png);
+    background-size: 28vh;
+}
+.c{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png);
+    background-size: 33vh;
+}
+.python{
+   background-image: url(https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png);
+background-size: 35vh;
+}
+.box{
+    width: 60%;
+    height: 40%;
+    background-image: url(https://i.pinimg.com/originals/5e/76/0c/5e760cba5e9ca01ed6249f1ea49cb104.png);
+    margin-left: 25%;
+    margin-top: 55%;
+    background-position: center;
+
+    
+}
+.innerbox{
+    width: 100%;
+   border-color: red;
+   border-width: 100px;
+    height: 20%;
+    background-color: rgb(61, 27, 27); 
+    margin-top: 100%;
+    color: white;
+    text-align: center;
+    font-size: 7vh;
+    animation-name: html;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+.cssbox{
+    width: 100%;
+   border-color: red;
+   border-width: 100px;
+    height: 50%;
+    background-color: rgb(61, 27, 27); 
+    margin-top: 100%;
+    color: white;
+    text-align: center;
+    font-size: 7vh;
+    animation-name: css;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+
+}
+.jsbox{
+    width: 100%;
+   border-color: red;
+   border-width: 100px;
+    height: 70%;
+    background-color: rgb(61, 27, 27); 
+    margin-top: 100%;
+    color: white;
+    text-align: center;
+    font-size: 7vh;
+    animation-name: css;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+
+}
+.content{
+    margin-left: 25%;
+    font-size: 7vh;
+    color: rgb(7, 8, 5);
+    font-weight: bold;
+    
+}
+.social{
+    text-align: right;
+}
+.soc:hover{
+    width: 20vh;
+    
+    color: aquamarine;
+    
+}
+.soc{
+    padding:3%;
+}
+.int{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 4vh;
+    font-weight: lighter;
+}
+.name{
+    font-size:8vh;
+    font-family:'Times New Roman', Times, serif;
+}
+</style>
+
+</head>
+<body>
+    
+        <div id="container" class="front">
+        <div class="upper" id="meenu">
+        <div class="topleft" style="height: 10vh;">
+            <div class="logo"></div>
+            <div class="uppernav">    <nav id="navbar">
+                <ul id="menu">
+                <li class="inli"><a href="#home">Home</a></li>
+               <li id="ed" class="inli"> <a href="#education">Strength/Weakness</a></li>
+               <li class="inli"><a href="#skill">Tech Skills</a></li>
+               <li class="inli"><a href="#project">Projects</a></li>
+               <li class="inli"><a href="#contact">Contact me</a></li>
+               
+            </ul>
+           
+            </nav></div>
+        </div>
+        <div class="topright" style="height: 10vh;"><img src="pass.jpeg" height="100%" width="40%" id="img"></div>
+    </div>
+
+        <div class="lower">
+
+            <div class="lowerleft">
+                <a name="home"></a>
+                <ul id="menudown" >
+                    <li class="inlo"><a href="#home">Home</a></li>
+                   <li id="ed" class="inlo"> <a href="#education">Strength/Weakness</a></li>
+                   <li class="inlo"><a href="#skill">Tech Skills</a></li>
+                   <li class="inlo"><a href="#project">Projects</a></li>
+                   <li class="inlo"><a href="#contact">Contact me</a></li>
+                   
+                </ul>
+               
+            </div>
+            <div class="middle" style="padding: 0%;">
+                   <div class="social" style="padding-left:40% ; padding-top:2vh">
+                    <a href="https://www.instagram.com/abhaypratap1609/"><img src="https://cdn.icon-icons.com/icons2/2714/PNG/512/instagram_logo_thin_icon_171701.png" width="20%" class="soc"></a>
+                    <a href="https://github.com/Team-CSI-Trainees/Abhay-Portfolio"><img src="https://cdn.freebiesupply.com/logos/large/2x/github-icon-logo-black-and-white.png" width="18%" class="soc"></a>
+                    <a href="https://www.snapchat.com/abhay_prata2712"><img src="https://i.pinimg.com/originals/22/6e/28/226e28de7d1b42057e19dd7aa34a4bc2.png" width="20%" class="soc"></a>
+                   </div>
+                    <div class="int" style="padding: 10% ; padding-left:20%;"><a name="home"></a>
+
+                    <div class="hell" >Hello I am </div>
+                    <div class="name">Abhay Pratap</div>
+                    <div>Student of AKGEC Ghaziabad</div>
+                    <div>Full stack Developer</div>
+                    <button><a href="Curriculum Vitae.pdf">Download CV</a></button>
+                    <br>
+                </div>
+                </div>
+            <div class="loweright" style="padding-top:10% ;">  <img src="abhay.png.jpeg" width="100%"></div>
+        </div>
+        </div>
+<a name="education"></a>
+<section id="qual">
+    <ul class="ineer" style="background-color:rgb(0,0,0,0) ;">
+        <li >Hard Worker</li>
+        <li>Self Motivates</li>
+        <li>Quick learner</li>
+        <li>Desiplined</li>
+    </ul>
+</div>
+<div>   <!--<h1 class="head" style="color: black;">Weakness</h1>-->
+    <ul id="ull" class="ineer" style="background-color:rgb(0,0,0,0) ;">
+    <li id="intro" style="color:black ;">Introvert</li>
+</ul>
+</div>
+</section>
+<a name="skill"></a>
+   
+    <div class="skills">
+    <div class="leftsl">
+    <div class="html"><div class="box"><div class="innerbox">80%</div></div><p class="content">HTML</p></div>
+    <div class="css"><div class="box"><div class="cssbox">50%</div></div><p class="content">CSS</p></div>
+    <div class="javascript"><div class="box"><div class="jsbox">30%</div></div><p class="content">Java Script</p></div>
+    <div class="django"><div class="box"><div class="jsbox">30%</div></div><p class="content">Django</p></div>
+</div>
+    <div class="rightsl"> 
+        <div class="c"><div class="box"><div class="innerbox">80%</div></div><p class="content">C language</p></div>
+        <div class="python"><div class="box"><div class="cssbox">50%</div></div><p class="content" style="font-size: 8vh ;">Python</p></div>
+    </div>
+    </div>
+
+
+<a name="project"></a>
+<section class="sec">
+    <h1 class="head">Project</h1>
+    <div>
+        <ul class="iner" style="background-color:rgba(8, 3, 3, 0.3) ;color:aliceblue;font-weight: bold;">
+       <li> Front end of payment form.</li>
+       <li> Front end of GYM site</li>
+        <li>Front end and Back end of Online Canteen</li>
+    </ul>
+    </div>
+</section>
+<a name="contact"></a>
+<section class="pro">
+    <h1 class="head">Contact Me</h1>
+    <form>
+        <div class="form">
+        <p><span>Enter your organisation name:</p><p><input type="text"></span></p>
+        <p><span>Enter your mobile number:</p><p><input type="tel"></span></p>
+        Or
+        <p></p>
+        <span>Enter Email:</span><span><input type="email"></span>
+    
+        <span>Your purpose:</span>
+    
+       <p> <input type="checkbox"> General Enquiry</p>
+        <p></p><p><input type="checkbox"> Offer any project</p>
+        <p></p><p><input type="checkbox"> Other</p>
+    
+        <p>Have any message:</p>
+        <textarea rows="5" cols="30" placeholder="message"></textarea>
+  
+       <button type="submit" id="button">Submit</button>
+    </div>
+    </form>
+</section>
+<script>
+    window.addEventListener("scroll",function(){
+        let menu=document.getElementById("container");
+        let jio=document.getElementById("meenu");
+        if(window.pageYOffset>=650 ){
+            menu.classList.remove("front");
+            menu.classList.add("container");
+            jio.classList.add("sticcky")
+        }
+        else{
+            menu.classList.remove("container");
+            menu.classList.add("front");
+            jio.classList.remove("sticcky")
+            
+        }
+    });
+</script>
+
+
+
+</body>
+</html>
